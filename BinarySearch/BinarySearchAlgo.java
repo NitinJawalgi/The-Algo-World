@@ -17,7 +17,9 @@ public class BinarySearchAlgo
             int mid;
 
             while(start<end)
-{           mid = start+(end-start)/2;
+{           mid = start+(end-start)/2;// find the middle element
+    //            int mid = (start + end) / 2; // might be possible that (start + end) exceeds the range of int in java
+
             if(arr[mid]==target){
             return mid;
             }
